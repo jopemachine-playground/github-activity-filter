@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    "@babel/syntax-dynamic-import",
+    [
+      "@babel/plugin-transform-react-jsx",
+      {
+        "pragma": "jsxPlugin",
+        "pragmaFrag": "DocumentFragment"
+      }
+    ]
+  ],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false
+      }
+    ]
+  ]
+}

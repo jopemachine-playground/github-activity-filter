@@ -1,0 +1,31 @@
+{
+  "name": "github-activity-filter",
+  "version": "0.0.1",
+  "description": "Add filter search bar on Github activity page",
+  "scripts": {
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch"
+  },
+  "keywords": [
+    "chrome",
+    "chrome-plugin",
+    "github"
+  ],
+  "author": "jopemachine",
+  "license": "MIT",
+  "dependencies": {
+    "dom-chef": "^5.0.0",
+    "select-dom": "^7.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-react-jsx": "^7.14.9",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "prettier": "^2.4.1",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0"
+  }
+}
