@@ -36,7 +36,9 @@ const setCardContainer = cardElements => {
 };
 
 const initialize = () => {
-	setCardContainer(cards);
+	if (initialized) {
+		setCardContainer(cards);
+	}
 
 	cards = [];
 	initialized = false;

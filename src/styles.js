@@ -16,10 +16,10 @@ const innerContainer = {
 
 const closeButton = {
 	position: 'absolute',
-  width: 13,
-  height: 13,
-  right: 11,
-  top: 10
+	width: 13,
+	height: 13,
+	right: 11,
+	top: 10
 };
 
 const typeSelector = {
