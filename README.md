@@ -4,7 +4,7 @@
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 [![GitHub issues](https://img.shields.io/github/issues/jopemachine/github-activity-filter.svg)](https://GitHub.com/jopemachine/github-activity-filter/issues/)
 
-> Add activity filter feature on Github activity page
+> Add filtering feature to Github activity dashboard (`https://github.com/`)
 
 ![demo](./demo.png)
 

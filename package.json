@@ -1,11 +1,12 @@
 {
   "name": "github-activity-filter",
   "version": "0.0.1",
-  "description": "Add activity filter feature on Github activity page",
+  "description": "Add filtering feature to Github activity dashboard",
   "scripts": {
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
     "build:prod": "webpack --mode=production --node-env=production",
+    "build-extension": "rm -rf node_modules && npm i --only=prod && cd ../ && zip -r ./github-activity-filter/extension.zip github-activity-filter",
     "watch": "webpack --watch",
     "lint": "xo"
   },
