@@ -1,17 +1,19 @@
 {
   "name": "github-activity-filter",
   "version": "0.0.1",
-  "description": "Add filter search bar on Github activity page",
+  "description": "Add activity filter feature on Github activity page",
   "scripts": {
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
     "build:prod": "webpack --mode=production --node-env=production",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "lint": "xo"
   },
   "keywords": [
     "chrome",
     "chrome-extension",
-    "github"
+    "github",
+    "github-activity"
   ],
   "author": "jopemachine",
   "license": "MIT",
@@ -24,8 +26,12 @@
     "@babel/plugin-transform-react-jsx": "^7.14.9",
     "@babel/preset-env": "^7.15.8",
     "babel-loader": "^8.2.2",
+    "eslint-config-xo-react": "^0.25.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.4.1",
     "webpack": "^5.58.1",
-    "webpack-cli": "^4.9.0"
+    "webpack-cli": "^4.9.0",
+    "xo": "^0.39.1"
   }
 }

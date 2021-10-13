@@ -1,0 +1,46 @@
+{
+	"envs": [
+		"browser"
+	],
+	"extends": "xo-react",
+	"globals": [
+		"browser",
+		"__features__",
+		"__featuresMeta__",
+		"__filebasename"
+	],
+	"rules": {
+		"import/no-cycle": "off",
+		"import/no-unassigned-import": "off",
+		"no-alert": "off",
+    "no-unused-vars": "off",
+		"react/jsx-key": "off",
+    "react/react-in-jsx-scope": "off",
+		"import/newline-after-import": "error",
+		"import/order": [
+			"error",
+			{
+				"groups": [
+					[
+						"builtin",
+						"external"
+					]
+				],
+				"newlines-between": "always-and-inside-groups"
+			}
+		],
+		"import/prefer-default-export": "error",
+		"react/function-component-definition": [
+			"error",
+			{
+				"namedComponents": "function-declaration"
+			}
+		]
+	},
+	"settings:comment": "We don't use React, so it can't be automatically detected by the linter",
+	"settings": {
+		"react": {
+			"version": "16.13"
+		}
+	}
+}
